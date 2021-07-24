@@ -1,0 +1,26 @@
+header {
+    div {
+        div {
+            .navegador {
+                background-color: $colorvioletafuerte;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 800;
+                font-size: 1.1rem;
+                .logo {
+                    width: 5rem;
+                }
+                .menuUno {
+                    li {
+                        a {
+                            color: $colornaranjamedio;
+                        }
+                        &:hover {
+                        color: $colornaranjamedio;
+                        transform: scale(1.1, 1.1); 
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
