@@ -1,2 +1,23 @@
 $montserrat: 'Montserrat', sans-serif;
 $playfair: 'Playfair Display', serif;
+
+h2 {
+    color: $colorvioletafuerte;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 4rem; }
+
+h3 {
+    color: $colorvioletafuerte;
+    font-family: $montserrat;
+    font-weight: 800; }
+
+h4 {
+    font-family: $montserrat;
+    font-size: 1.1rem;
+    color: $colorvioletafuerte; }
+
+p {
+    font-family: $montserrat;
+    font-weight: 500;
+    font-size: 1rem; }

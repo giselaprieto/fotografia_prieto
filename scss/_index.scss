@@ -3,17 +3,10 @@
     color: $colornaranjaclaro;
     font-family: $montserrat;
     font-weight: 700;
-}
-
-@mixin formulario ($background) {
-    background-color: $background;
-    font-family: $montserrat;
-    font-weight: 500;
-    font-size: 1rem;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "tituloFormulario contenedorFormulario"; 
+    &:hover {
+      color: $colorvioletasemifuerte;
+      transform: scale(1.1, 1.1);
+    }
 }
 
 .carrousel {
@@ -33,120 +26,49 @@
       }
     }
   }
-  
-  section.tarjetas {
+
+section.tarjetas {
+  background-color: $colorvioletaclaro;
+  .tarjetas__filas {
+    .tarjetas__filas--columnas {
+      .tarjetas__tarjeta {
+        background-color: $colornaranjasemiclaro;
+      }
+    }
+  }
+  .tarjetas__botones {
+    @include botones;
+  }
+}
+
+section {
+  .tablaServicios {
     background-color: $colorvioletaclaro;
-    .tarjetas__filas {
-      .tarjetas__filas--columnas {
-        .tarjetas__tarjeta {
-          background-color: $colornaranjasemiclaro;
-        }
-      }
-    }
-    .tarjetas__botones {
-      @include botones;
-    }
-  }
-  
-  section {
-    .tablaServicios {
-      background-color: $colorvioletaclaro;
-      width: 50%;
-      .tablaTitulo {
-        background-color: $colorvioletafuerte;
-        color: $colorvioletaclaro;
-        font-family: $montserrat;
-        font-weight: 800;
-      }
-      .tablaTexto {
-        font-family: $montserrat;
-        font-weight: 500;
-      }
-    }
-    div {
-      .botones {
-        @include botones;
-      }
-    } 
-  }
-  
-  
-  section.nuestrosClientes {
-    .cuadroClientes {
-      background-color: $colorvioletamedio;
-      color: $colornegro;
+    width: 50%;
+    .tablaTitulo {
+      background-color: $colorvioletafuerte;
+      color: $colorvioletaclaro;
       font-family: $montserrat;
       font-weight: 800;
     }
-  }
-  
-  #formulario {
-    @include formulario ($colornaranjaclaro);
-    .tituloFormulario {
-      grid-area: tituloFormulario;
-      text-align: right;
-      margin-top: 2%;
-    }
-    .contenedorFormulario {
-      grid-area: contenedorFormulario;
-      margin-top: 5%;
-      margin-left: 5%;
-      margin-bottom: 5%; 
-      .formularioEstilos {
-        background-color: $colorvioletamedio;
-        border: none;
-        border-radius: 0.5rem;
-        width: 25%;
-        padding: 0.5rem;
-        margin-bottom: 2%;
-      }
-      .formularioConsulta {
-        background-color: $colorvioletamedio;
-        width: 50%;
-        height: 80%;
-        font-family: $montserrat;
-        font-weight: 400;
-        border: none;
-        border-radius: 0.5rem;
-        padding: 1rem; 
-      }
-      .botonEnviar {
-        text-decoration: none;
-        background-color: $colorvioletafuerte;
-        color: $colornaranjaclaro;
-        border: none;
-        font-family: $montserrat;
-        font-weight: 700;
-        font-size: 1rem;
-        padding: 0.8rem;
-        border-radius: 0.5rem;
-        margin-top: 1%;
-        margin-right: 1%;
-        &:hover {
-          text-decoration: none;
-          color: $colorvioletamedio;
-          transform: scale(1.1, 1.1);
-        } 
-      }
-      .botonBorrar {
-        text-decoration: none;
-        background-color: $colorvioletafuerte;
-        opacity: 70%;
-        color: $colornaranjaclaro;
-        border: none;
-        font-family: $montserrat;
-        font-weight: 700;
-        font-size: 1rem;
-        padding: 0.8rem;
-        border-radius: 0.5rem;
-        margin-top: 1%; 
-        &:hover {
-          text-decoration: none;
-          background-color: $colorvioletafuerte;
-          opacity: 100%;
-          color: $colornaranjaclaro; 
-        }
-      }
+    .tablaTexto {
+      font-family: $montserrat;
+      font-weight: 500;
     }
   }
-  
+  div {
+    .botones {
+      @include botones;
+    }
+  } 
+}
+
+section.nuestrosClientes {
+  background-color: $colorvioletaclaro;
+  .cuadroClientes {
+    background-color: $colorvioletamedio;
+    color: $colornegro;
+    font-family: $montserrat;
+    font-weight: 800;
+  }
+}

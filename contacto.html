@@ -7,6 +7,7 @@
     <meta name="description" content="Toda la información necesaria para que te puedas poner en contacto con GissP Fotografía. Ubicación, redes sociales, mail, WhatsApp, y consultas.">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Contacto y redes sociales</title>
@@ -55,12 +56,9 @@
     <main>
         <div>
             <img src="imagenes/foto_fondo_blanco.jpg" class="img-fluid w-100" alt="Chica en estudio fotográfico">
+            <h1 class="tituloPrincipal wow animate__animated animate__fadeInDown">Contacto</h1>
+            <p class="bajadaPrincipal wow animate__animated animate__fadeInDown">Realizanos la consulta que tengas y seguinos en nuestras redes sociales<br> para estar al tanto de todo nuestro contenido.</p>
         </div>
-
-        <section>
-            <h1 class="tituloPrincipal">Contacto</h1>
-            <p class="bajadaPrincipal">Realizanos la consulta que tengas y seguinos en nuestras redes sociales<br> para estar al tanto de todo nuestro contenido.</p>
-        </section>
 
         <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <ol class="breadcrumb ms-5 mt-3 breadEstilo">
@@ -85,20 +83,20 @@
         <div class="contenedorFormulario">
             <form action="#">
                 <div>
-                    <input type="nombre" name="nombre" placeholder="Nombre" class="formularioEstilosDos" required>
-                    <input type="apellido" name="apellido" placeholder="Apellido" class="formularioEstilosDos" required>
+                    <input type="nombre" name="nombre" placeholder="Nombre" class="formularioEstilos" required>
+                    <input type="apellido" name="apellido" placeholder="Apellido" class="formularioEstilos" required>
                 </div>
 
                 <div>
-                    <input type="email" name="email" placeholder="Mail" class="formularioEstilosDos" required/>
-                    <input type="text" name="numero" placeholder="Número de celular" maxlength="10" class="formularioEstilosDos">
+                    <input type="email" name="email" placeholder="Mail" class="formularioEstilos" required/>
+                    <input type="text" name="numero" placeholder="Número de celular" maxlength="10" class="formularioEstilos">
                 </div> 
     
                 <div>
                     <label for="lugar" required>Fecha del evento</label><br>
-                    <input type="date" name="fecha" class="formularioEstilosDos">
+                    <input type="date" name="fecha" class="formularioEstilos">
 
-                    <select name="selecciona" class="formularioEstilosDos">
+                    <select name="selecciona" class="formularioEstilos">
                         <option value="15 años">Selecciona el tipo de evento...</option>
                         <option value="15 años">15 años</option>
                         <option value="Casamiento">Casamiento</option>
@@ -116,7 +114,7 @@
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                             <label class="form-check-label" for="inlineRadio1">CABA</label>
-                            </div>
+                        </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                             <label class="form-check-label" for="inlineRadio2">Zona Oeste-GBA</label>
@@ -133,7 +131,7 @@
                 </div>
     
                 <div> 
-                    <textarea name="consulta" placeholder="¿Cuál es tu consulta?" class="formularioConsultaDos"></textarea>
+                    <textarea name="consulta" placeholder="¿Cuál es tu consulta?" class="formularioConsulta"></textarea>
                 </div>  
     
                 <div>
@@ -178,7 +176,7 @@
                                 <li><a href="contacto.html">Contacto</a></li>
                             </ul>
                     </div>
-                    <div class="col-lg-4 col-xs-12 location ">
+                    <div class="col-lg-4 col-xs-12 location">
                         <h4 class="mt-lg-0 mt-sm-4 footerTexto">Nosotros</h4>
                         <p>San Miguel, Buenos Aires, Argentina.</p>
                         <p class="mb-0"><i class="fa fa-phone mr-3"></i>(+54) 1157313371</p>
@@ -191,7 +189,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col copyright">
-                        <p class=""><small class="text-white-50">© 2021. GissP Fotografía.</small></p>
+                        <p><small class="text-white-50">© 2021. GissP Fotografía.</small></p>
                     </div>
                 </div>
             </div>
@@ -199,5 +197,7 @@
     </footer>
 
     <script src="js/bootstrap.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>

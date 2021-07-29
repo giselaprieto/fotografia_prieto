@@ -1,0 +1,18 @@
+section.redesSociales {
+    margin-bottom: 5%;
+    .contenedorRedesSociales {
+        width: 70%;
+        margin-left: 15%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        .iconosRedesSocialesUno {
+            width: 100%;
+            padding: 1.5%;
+        }
+        .iconosRedesSocialesDos {
+            width: 100%;
+            padding: 0.8%;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+section {
+    .mapa {
+        display: flex;
+        justify-content: center; 
+        .googleMaps {
+            width: 60rem;
+            height: 30rem;
+        }
+    }
+}

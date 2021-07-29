@@ -1,0 +1,46 @@
+main {
+    div {
+        .tituloPrincipal {
+            color: $colorvioletafuerte;
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 5rem;
+            position: absolute;
+            top: 90%;
+            left: 5%; 
+        }
+        .bajadaPrincipal {
+        font-family: $montserrat;
+        font-weight: 500;
+        font-size: 1rem;
+        color: $colornegro;
+        position: absolute;
+        top: 100%;
+        left: 5%;
+        font-family: $montserrat;
+        font-weight: 600;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        }
+    }
+    div {
+        ol {
+            font-family: $montserrat;
+            font-weight: 800;
+            font-size: 1.2rem;
+            li a {
+                color: $colorvioletafuerte;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: none;
+                    color: $colornaranjamedio;
+                }
+            }
+        }
+    }
+}
+
+
+.galeriaEstilo {
+    background-color: $colorvioletaclaro; 
+}

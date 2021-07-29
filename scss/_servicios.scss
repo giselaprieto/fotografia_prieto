@@ -1,0 +1,105 @@
+@mixin diseno ($grid) {
+    grid-area: $grid;
+    display: flex;
+    justify-content: center;
+}
+
+@mixin titulosdiseno {
+    z-index: 2;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: $colornaranjasemiclaro;
+    margin-top: 16%;
+}
+
+@mixin imgdiseno {
+    z-index: 1;
+    width: 100%;
+    filter: brightness(20%);
+    &:hover {
+        filter: brightness(100%);
+    }
+}
+
+.desplegableCuadro {
+    background-color: $colorvioletamedio;
+    .desplegable {
+        background-color: $colorvioletafuerte;
+        font-family: $montserrat;
+        font-weight: 800;
+        font-size: 1.2rem;
+        color: $colorvioletamedio;  
+    }
+}
+
+section.contenedorDisenos {
+    background-color: $colorvioletamedio;
+    .disenos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        margin: 1rem;
+        grid-template-areas:
+            "disenoUno disenoDos disenoTres"
+            "disenoCuatro disenoCinco disenoSeis";
+        .disenoUno {
+            @include diseno (disenoUno);
+            .titulosDisenos {
+                @include titulosdiseno;
+            }
+            .imagenesDiseno {
+                @include imgdiseno;
+            }
+        }
+        .disenoDos {
+            @include diseno (disenoDos);
+            .titulosDisenos {
+                @include titulosdiseno;
+            }
+            .imagenesDiseno {
+                @include imgdiseno;
+            }
+        }
+        .disenoTres {
+            @include diseno(disenoTres);
+            .titulosDisenos {
+                @include titulosdiseno;
+            }
+            .imagenesDiseno {
+                @include imgdiseno;
+            }
+        }
+        .disenoCuatro {
+            @include diseno(disenoCuatro);
+            margin-bottom: 10%;
+            .titulosDisenos {
+                @include titulosdiseno;
+            }
+            .imagenesDiseno {
+                @include imgdiseno;
+            }
+        }
+        .disenoCinco {
+            @include diseno(disenoCinco);
+            margin-bottom: 10%;
+            .titulosDisenos {
+                @include titulosdiseno;
+            }
+            .imagenesDiseno {
+                @include imgdiseno;
+            }
+        }
+        .disenoSeis {
+            @include diseno(disenoSeis);
+            margin-bottom: 10%;
+            .titulosDisenos {
+                @include titulosdiseno;
+            }
+            .imagenesDiseno {
+                @include imgdiseno;
+            }
+        }
+    } 
+}

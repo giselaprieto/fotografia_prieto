@@ -1,0 +1,61 @@
+section.quienSoy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "tituloQuienSoy tituloQuienSoy"
+        "imagenGissp textoQuienSoy";
+    margin-bottom: 5%;
+    .tituloQuienSoy {
+        grid-area: tituloQuienSoy;
+        display: grid;
+        justify-items: center; 
+    }
+    .imagenGissp {
+        grid-area: imagenGissp;
+        display: grid;
+        justify-items: end;
+        padding: 1rem;
+    }
+    .textoQuienSoy {
+        grid-area: textoQuienSoy;
+        width: 60%;
+        padding: 1rem;
+        h3 {
+            color: #D97C52;
+            font-family: 'Playfair';
+            font-weight: 600;
+            font-size: 2.5rem;
+            display: inline-block;
+        }
+        p {
+            line-height: 1.5rem;
+            display: inline-block; 
+        } 
+        .textoNegrita {
+            font-weight: 800;
+        }
+    }
+}
+
+section.misHabilidades {
+    background-color: $colorvioletamedio;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    .iconosQuienesSomos {
+        margin-left: 20%;
+        margin-bottom: 1%;
+        width: 100px;
+        height: 100px;
+    }
+    .habilidadesTexto {
+        display: inline-block;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        font-family: $montserrat;
+        font-weight: 800;
+        font-size: 1.3rem;
+    }
+}

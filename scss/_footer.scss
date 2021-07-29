@@ -1,0 +1,42 @@
+@mixin footertext {
+    font-family: $montserrat;
+    font-weight: 800;
+    color: $colornaranjaclaro;   
+}
+
+.footer {
+    font-family: $montserrat;
+    background: $colorvioletafuerte;
+    color: $colorblanco; 
+    .links {
+        .footerTexto {
+            @include footertext;
+        }
+        ul {
+            list-style-type: none;
+            li a {
+                text-decoration: none;
+                font-family: $montserrat;
+                font-weight: 700;
+                color: $colorblanco;
+                transition: color .2s;
+                &:hover {
+                    text-decoration: none;
+                    color: $colornaranjaclaro; 
+                }  
+            }  
+        }
+    }
+    div {
+        .footerTexto {
+            @include footertext;
+        }
+    }
+    div {
+        .copyright {
+            p {
+                border-top: 1px solid rgba(255, 255, 255, 0.1);  
+            }
+        }
+    }
+}
