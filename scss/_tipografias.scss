@@ -3,9 +3,10 @@ $playfair: 'Playfair Display', serif;
 
 h2 {
     color: $colorvioletafuerte;
-    font-family: 'Playfair Display', serif;
+    font-family: $playfair;
     font-weight: 900;
-    font-size: 4rem; }
+    font-size: 4rem; 
+}
 
 h3 {
     color: $colorvioletafuerte;

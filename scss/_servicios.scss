@@ -4,13 +4,13 @@
     justify-content: center;
 }
 
-@mixin titulosdiseno {
+@mixin titulosdiseno ($size, $margintop){
     z-index: 2;
     position: absolute;
-    font-size: 2.5rem;
+    font-size: $size;
     font-weight: 900;
     color: $colornaranjasemiclaro;
-    margin-top: 16%;
+    margin-top: $margintop;
 }
 
 @mixin imgdiseno {
@@ -19,6 +19,15 @@
     filter: brightness(20%);
     &:hover {
         filter: brightness(100%);
+    }
+}
+
+@mixin espaciado ($bgcolor) {
+    background-color: $bgcolor;
+    padding: 2%;
+    h2 {
+        margin-top: 1%;
+        margin-bottom: 3%; 
     }
 }
 
@@ -47,7 +56,7 @@ section.contenedorDisenos {
         .disenoUno {
             @include diseno (disenoUno);
             .titulosDisenos {
-                @include titulosdiseno;
+                @include titulosdiseno (2.5rem, 16%);
             }
             .imagenesDiseno {
                 @include imgdiseno;
@@ -56,7 +65,7 @@ section.contenedorDisenos {
         .disenoDos {
             @include diseno (disenoDos);
             .titulosDisenos {
-                @include titulosdiseno;
+                @include titulosdiseno (2.5rem, 16%);
             }
             .imagenesDiseno {
                 @include imgdiseno;
@@ -65,7 +74,7 @@ section.contenedorDisenos {
         .disenoTres {
             @include diseno(disenoTres);
             .titulosDisenos {
-                @include titulosdiseno;
+                @include titulosdiseno (2.5rem, 16%);
             }
             .imagenesDiseno {
                 @include imgdiseno;
@@ -75,7 +84,7 @@ section.contenedorDisenos {
             @include diseno(disenoCuatro);
             margin-bottom: 10%;
             .titulosDisenos {
-                @include titulosdiseno;
+                @include titulosdiseno (2.5rem, 16%);
             }
             .imagenesDiseno {
                 @include imgdiseno;
@@ -85,7 +94,7 @@ section.contenedorDisenos {
             @include diseno(disenoCinco);
             margin-bottom: 10%;
             .titulosDisenos {
-                @include titulosdiseno;
+                @include titulosdiseno (2.5rem, 16%);
             }
             .imagenesDiseno {
                 @include imgdiseno;
@@ -95,7 +104,7 @@ section.contenedorDisenos {
             @include diseno(disenoSeis);
             margin-bottom: 10%;
             .titulosDisenos {
-                @include titulosdiseno;
+                @include titulosdiseno (2.5rem, 16%);
             }
             .imagenesDiseno {
                 @include imgdiseno;

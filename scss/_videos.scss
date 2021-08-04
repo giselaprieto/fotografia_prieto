@@ -1,19 +1,4 @@
-@mixin videos {
-    width: 50rem;
-    height: 30rem;
-    margin-bottom: 5%;
-}
-
-@mixin botones {
-    background-color: $colorvioletafuerte;
-    color: $colornaranjaclaro;
-    font-family: $montserrat;
-    font-weight: 700;
-    &:hover {
-        color: $colorvioletasemifuerte;
-        transform: scale(1.1, 1.1);
-    }
-}
+@import "mixins";
 
 section {
     .videoExperiencia {
@@ -27,20 +12,12 @@ section {
 section.videosEstilos {
     background-color: $colorvioletaclaro;
     .videosDos {
-        display: flex;
-        justify-content: space-around;
-        .videos {
-            @include videos;
-        }
+        @include videos (row, 50rem, 30rem, 0);
     }
 }
 
 section {
     .videosTres {
-        display: flex;
-        justify-content: space-around;
-        .videos {
-            @include videos;
-        }
+        @include videos (row, 50rem, 30rem, 0);
     }
 }

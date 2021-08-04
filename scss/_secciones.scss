@@ -1,8 +1,10 @@
+// TODAS LAS SECCIONES
+
 main {
     div {
         .tituloPrincipal {
             color: $colorvioletafuerte;
-            font-family: 'Playfair Display', serif;
+            font-family: $playfair;
             font-weight: 900;
             font-size: 5rem;
             position: absolute;
@@ -10,17 +12,14 @@ main {
             left: 5%; 
         }
         .bajadaPrincipal {
-        font-family: $montserrat;
-        font-weight: 500;
-        font-size: 1rem;
-        color: $colornegro;
-        position: absolute;
-        top: 100%;
-        left: 5%;
-        font-family: $montserrat;
-        font-weight: 600;
-        font-size: 1.3rem;
-        line-height: 1.8rem;
+            color: $colornegro;
+            font-family: $montserrat;
+            font-weight: 600;
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            position: absolute;
+            top: 100%;
+            left: 5%;
         }
     }
     div {
@@ -40,7 +39,12 @@ main {
     }
 }
 
+// SECCION FOTOGRAFÍAS
 
 .galeriaEstilo {
-    background-color: $colorvioletaclaro; 
+    background-color: $colorvioletaclaro;
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%; 
 }
+

@@ -1,3 +1,17 @@
+main {
+    div {
+        .tituloPrincipalDos {
+            color: $colornaranjaclaro;
+            font-family: $playfair;
+            font-weight: 900;
+            font-size: 5rem;
+            position: absolute;
+            top: 90%;
+            left: 5%; 
+        }
+    }
+}
+
 section.quienSoy {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,6 +30,9 @@ section.quienSoy {
         display: grid;
         justify-items: end;
         padding: 1rem;
+        .fotoGissp {
+            width: 50%;
+        }
     }
     .textoQuienSoy {
         grid-area: textoQuienSoy;

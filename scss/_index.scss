@@ -1,13 +1,4 @@
-@mixin botones {
-    background-color: $colorvioletafuerte;
-    color: $colornaranjaclaro;
-    font-family: $montserrat;
-    font-weight: 700;
-    &:hover {
-      color: $colorvioletasemifuerte;
-      transform: scale(1.1, 1.1);
-    }
-}
+@import "mixins";
 
 .carrousel {
     .carrousel__fotos {
@@ -28,7 +19,7 @@
   }
 
 section.tarjetas {
-  background-color: $colorvioletaclaro;
+  @include espaciado($colorvioletaclaro);
   .tarjetas__filas {
     .tarjetas__filas--columnas {
       .tarjetas__tarjeta {
@@ -36,12 +27,13 @@ section.tarjetas {
       }
     }
   }
-  .tarjetas__botones {
+  .botones {
     @include botones;
   }
 }
 
 section {
+  @include espaciado($colornaranjaclaro);
   .tablaServicios {
     background-color: $colorvioletaclaro;
     width: 50%;
@@ -49,6 +41,7 @@ section {
       background-color: $colorvioletafuerte;
       color: $colorvioletaclaro;
       font-family: $montserrat;
+      font-size: 2rem;
       font-weight: 800;
     }
     .tablaTexto {
@@ -64,7 +57,7 @@ section {
 }
 
 section.nuestrosClientes {
-  background-color: $colorvioletaclaro;
+  @include espaciado($colorvioletaclaro);
   .cuadroClientes {
     background-color: $colorvioletamedio;
     color: $colornegro;
