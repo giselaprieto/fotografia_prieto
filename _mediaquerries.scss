@@ -1,0 +1,503 @@
+@import "mixins";
+@import "servicios";
+
+@media only screen and (max-width: 1024px) {
+
+h2 {
+    font-size: 3rem; 
+}
+
+h3 {
+    font-size: 1.5rem; 
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.botones {
+    font-size: 1rem;
+}
+
+#formulario {
+    @include formulario ($colornaranjaclaro, 0.9rem, 2fr, 3fr, "tituloFormulario contenedorFormulario", right, $colorvioletamedio, 40%, $colorvioletamedio, 80%);
+}
+
+#formularioDos {
+    @include formulario ($colorvioletamedio, 0.9rem, 2fr, 3fr, "tituloFormulario contenedorFormulario", right, $colorblanco, 40%, $colorblanco, 80%);
+}
+
+main {
+    div {
+        .tituloPrincipal {
+            font-size: 4rem;
+            top: 75%;
+        }
+        .bajadaPrincipal {
+            font-size: 1rem;
+            line-height: 1.3rem;
+            top: 90%;
+        }
+    }
+    div {
+        ol {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+/* --------------------------------INDEX*/
+.carrousel {
+    .carrousel__fotos {
+        .carrousel__fotos--uno {
+        h1 {
+            font-size: 3.5rem;
+        }
+        p.parrafoPrincipal {
+            font-size: 1rem;
+        }
+        }
+    }
+}
+
+section {
+    .tablaServicios {
+        width: 80%;
+        .tablaTitulo {
+            font-size: 1.5rem;
+        }
+        .tablaTexto {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+/* --------------------------------SECCIÓN VIDEOS */
+
+section.videosEstilos {
+    .videosDos {
+        @include videos (row, 30rem, 20rem, 0);
+    }
+}
+
+section {
+    .videosTres {
+        @include videos (row, 30rem, 20rem, 0);
+    }
+}
+
+/* --------------------------------SECCIÓN SERVICIOS */
+
+section.contenedorDisenos {
+    .disenos {
+        .disenoUno, .disenoDos, .disenoTres, .disenoCuatro, .disenoCinco, .disenoSeis {
+            .titulosDisenos {
+                @include titulosdiseno (1.3rem, 15%);
+            }
+        }
+    }
+}
+
+/* --------------------------------SECCIÓN ¿QUIÉNES SOMOS? */
+
+main {
+    div {
+        .tituloPrincipalDos {
+            font-size: 4rem;
+            top: 75%;
+        }
+    }
+}
+
+section.quienSoy {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "tituloQuienSoy tituloQuienSoy"
+        "imagenGissp textoQuienSoy";
+        .imagenGissp {
+            .fotoGissp {
+                width: 60%;
+            }
+        }
+        .textoQuienSoy {
+            width: 80%;
+    }
+}
+
+section.misHabilidades {
+    .iconosQuienesSomos {
+        margin-top: 5%;
+        margin-left: 20%;
+        width: 60px;
+        height: 60px;
+    }
+    .habilidadesTexto {
+        margin-left: 17%;
+        font-size: 1.2rem;
+    }
+}
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+/* --------------------------------TODAS LAS SECCIONES */
+
+h2 {
+    font-size: 2rem; 
+}
+
+h3 {
+    font-size: 1.2rem; 
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+header {
+    div {
+        div {
+            .navegador {
+            font-size: 0.9rem;
+                .menuUno {
+                    li {
+                        &:hover {
+                        transform: none; 
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
+
+.botones {
+    font-size: 1rem;
+}
+
+#formulario {
+    @include formulario ($colornaranjaclaro, 0.8rem, 2fr, 4fr, "tituloFormulario contenedorFormulario", right, $colorvioletamedio, 40%, $colorvioletamedio, 80%);
+}
+    
+#formularioDos {
+    @include formulario ($colorvioletamedio, 0.8rem, 2fr, 4fr, "tituloFormulario contenedorFormulario", right, $colorblanco, 40%, $colorblanco, 80%);
+}
+
+main {
+    div {
+        .tituloPrincipal {
+            font-size: 3rem;
+            top: 60%;
+        }
+        .bajadaPrincipal {
+            font-size: 0.9rem;
+            line-height: 1rem;
+            top: 70%;
+        }
+    }
+    div {
+        ol {
+            font-size: 1rem;
+        }
+    }
+}
+
+/* --------------------------------INDEX*/
+
+.carrousel {
+    .carrousel__fotos {
+        .carrousel__fotos--uno {
+            h1 {
+            font-size: 2rem;
+            }
+        p.parrafoPrincipal {
+            font-size: 0.8rem;
+        }
+        }
+    }
+}
+
+section {
+    .tablaServicios {
+        width: 75%;
+        .tablaTitulo {
+            font-size: 1.5rem;
+        }
+        .tablaTexto {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+/* --------------------------------SECCIÓN VIDEOS */
+
+section.videosEstilos {
+    .videosDos {
+        @include videos (column, 35rem, 20rem, 10%);
+    }
+}
+
+section {
+    .videosTres {
+        @include videos (column, 35rem, 20rem, 10%);
+    }
+}
+
+/* --------------------------------SECCIÓN SERVICIOS */
+
+section.contenedorDisenos {
+    .disenos {
+        .disenoUno, .disenoDos, .disenoTres, .disenoCuatro, .disenoCinco, .disenoSeis {
+            .titulosDisenos {
+                @include titulosdiseno (1rem, 16%);
+            }
+        }
+    }
+}
+
+/* --------------------------------SECCIÓN ¿QUIÉNES SOMOS? */
+
+main {
+    div {
+        .tituloPrincipalDos {
+            font-size: 3rem;
+            top: 60%;
+        }
+    }
+}
+
+section.quienSoy {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "tituloQuienSoy tituloQuienSoy"
+        "imagenGissp textoQuienSoy";
+        .imagenGissp {
+            .fotoGissp {
+                width: 50%;
+            }
+        }
+        .textoQuienSoy {
+            width: 80%;
+    }
+}
+
+section.misHabilidades {
+    .iconosQuienesSomos {
+        margin-left: 18%;
+        width: 60px;
+        height: 60px;
+    }
+    .habilidadesTexto {
+        margin-left: 16%;
+        font-size: 1rem;
+    }
+}
+
+/* --------------------------------SECCIÓN CONTACTO */
+
+section.redesSociales {
+    .contenedorRedesSociales {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+section {
+    .mapa {
+        .googleMaps {
+            width: 40rem;
+            height: 20rem;
+        }
+    }
+}
+
+}
+
+
+
+@media only screen and (max-width: 320px) {
+/* --------------------------------TODAS LAS SECCIONES */
+p {
+    font-size: 0.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 2%;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+header {
+    div {
+        div {
+            .navegador {
+                .logo {
+                    width: 3.8rem;
+                }
+                .menuUno {
+                    li {
+                        &:hover {
+                        transform: none; 
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}  
+
+.botones {
+    font-size: 0.8rem;
+}
+
+main {
+    div {
+        .tituloPrincipal, .tituloPrincipalDos {
+            opacity: 0%;
+        }
+        .bajadaPrincipal {
+            opacity: 0%;
+        }
+    }
+    div {
+        ol {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+#formulario {
+    @include formulario ($colornaranjaclaro, 0.8rem, 1fr, 0fr, "tituloFormulario" "contenedorFormulario", center, $colorvioletamedio, 90%, $colorvioletamedio, 90%);
+}
+
+#formularioDos {
+    @include formulario ($colorvioletamedio, 0.8rem, 1fr, 0fr, "tituloFormulario" "contenedorFormulario", center, $colorblanco, 90%, $colorblanco, 90%);
+}
+
+/* --------------------------------SECCIÓN INDEX */
+
+section {
+    .tablaServicios {
+        width: 100%;
+        .tablaTitulo {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+/* --------------------------------SECCIÓN VIDEOS */
+section.videosEstilos {
+    .videosDos {
+        @include videos (column, 17rem, 10rem, 1%);
+    }
+}
+
+section {
+    .videosTres {
+        @include videos (column, 17rem, 10rem, 1%);
+    }
+}
+
+/* --------------------------------SECCIÓN SERVICIOS */
+.desplegableCuadro {
+    .desplegable {
+        font-size: 1rem;
+    }
+}
+
+section.contenedorDisenos {
+    .disenos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+    grid-template-areas: "disenoUno"
+        "disenoDos"
+        "disenoTres"
+        "disenoCuatro"
+        "disenoCinco"
+        "disenoSeis";
+        .disenoUno, .disenoDos, .disenoTres {
+            .titulosDisenos {
+                @include titulosdiseno (1rem, 40%);
+            }
+        }
+        .disenoCuatro, .disenoCinco, .disenoSeis {
+            margin-bottom: 1%;
+            .titulosDisenos {
+                @include titulosdiseno (1rem, 40%);
+            }
+        }
+    }
+}
+
+/* --------------------------------SECCIÓN ¿QUIÉNES SOMOS? */
+
+
+main {
+    div {
+        .tituloPrincipalDos {
+            font-size: 3rem;
+            top: 60%;
+        }
+    }
+}
+
+section.quienSoy {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "imagenGissp"
+        "tituloQuienSoy"
+        "textoQuienSoy";
+    .imagenGissp {
+        grid-area: imagenGissp;
+        padding: 0.5rem;
+        display: grid;
+        justify-items: center;
+        .fotoGissp {
+        width: 70%;
+        }
+    }
+    .textoQuienSoy {
+        grid-area: textoQuienSoy;
+        width: 100%;
+        h3 {
+            font-size: 2rem;
+            display: inline-block;
+        }
+        p {
+            line-height: 1.3rem;
+            display: inline-block; 
+        } 
+        .textoNegrita {
+            font-weight: 800;
+        }
+    }
+}
+
+section.misHabilidades {
+    .iconosQuienesSomos {
+        margin-left: 12%;
+        width: 50px;
+        height: 50px;
+    }
+    .habilidadesTexto {
+        margin-left: 8%;
+        font-size: 0.8rem;
+    }
+}
+
+}

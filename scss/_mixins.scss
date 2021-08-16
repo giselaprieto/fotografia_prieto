@@ -30,7 +30,7 @@
       }
 }
 
-@mixin formulario ($background, $size, $columnuno, $columndos, $areas, $bgcuadrados, $widthestilos, $bgconsulta, $widthconsulta) {
+@mixin formulario ($background, $size, $columnuno, $columndos, $areas, $tituloalign, $bgcuadrados, $widthestilos, $bgconsulta, $widthconsulta) {
   background-color: $background;
   font-family: $montserrat;
   font-weight: 500;
@@ -41,7 +41,7 @@
   grid-template-areas: $areas; 
   .tituloFormulario {
       grid-area: tituloFormulario;
-      text-align: right;
+      text-align: $tituloalign;
       margin-top: 2%;
   }
   .contenedorFormulario {

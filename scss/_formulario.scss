@@ -1,9 +1,9 @@
 @import "mixins";
 
 #formulario {
-    @include formulario ($colornaranjaclaro, 1rem, 2fr, 3fr, "tituloFormulario contenedorFormulario", $colorvioletamedio, 25%, $colorvioletamedio, 50%);
+    @include formulario ($colornaranjaclaro, 1rem, 2fr, 3fr, "tituloFormulario contenedorFormulario", right, $colorvioletamedio, 25%, $colorvioletamedio, 50%);
 }
 
 #formularioDos {
-    @include formulario ($colorvioletamedio, 1rem, 2fr, 3fr, "tituloFormulario contenedorFormulario", $colorblanco, 25%, $colorblanco, 50%);
+    @include formulario ($colorvioletamedio, 1rem, 2fr, 3fr, "tituloFormulario contenedorFormulario", right, $colorblanco, 25%, $colorblanco, 50%);
 }
