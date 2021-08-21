@@ -663,6 +663,698 @@ section.contenedorDisenos {
         section.contenedorDisenos .disenos .disenoSeis .imagenesDiseno:hover {
           filter: brightness(100%); }
 
+/* _____________________________________________________________________________________________1920px */
+@media only screen and (max-width: 1920px) {
+  main div .tituloPrincipal {
+    font-size: 4rem;
+    top: 119%; }
+  main div .bajadaPrincipal {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    top: 130%; }
+  main div .tituloPrincipalDos {
+    font-size: 4rem;
+    top: 90%; }
+  #formulario {
+    background-color: #FFE0DE;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tituloFormulario contenedorFormulario"; }
+    #formulario .tituloFormulario {
+      grid-area: tituloFormulario;
+      text-align: right;
+      margin-top: 2%; }
+    #formulario .contenedorFormulario {
+      grid-area: contenedorFormulario;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%; }
+      #formulario .contenedorFormulario .formularioEstilos {
+        background-color: #D2C1E5;
+        border: none;
+        border-radius: 0.5rem;
+        width: 40%;
+        padding: 0.5rem;
+        margin-bottom: 2%; }
+      #formulario .contenedorFormulario .formularioConsulta {
+        background-color: #D2C1E5;
+        width: 80%;
+        height: 80%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem; }
+      #formulario .contenedorFormulario .botonEnviar {
+        text-decoration: none;
+        background-color: #8048A3;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        margin-right: 1%; }
+        #formulario .contenedorFormulario .botonEnviar:hover {
+          text-decoration: none;
+          color: #D2C1E5;
+          transform: scale(1.1, 1.1); }
+      #formulario .contenedorFormulario .botonBorrar {
+        text-decoration: none;
+        background-color: #8048A3;
+        opacity: 70%;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%; }
+        #formulario .contenedorFormulario .botonBorrar:hover {
+          text-decoration: none;
+          background-color: #8048A3;
+          opacity: 100%;
+          color: #FFE0DE; }
+  #formularioDos {
+    background-color: #D2C1E5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tituloFormulario contenedorFormulario"; }
+    #formularioDos .tituloFormulario {
+      grid-area: tituloFormulario;
+      text-align: right;
+      margin-top: 2%; }
+    #formularioDos .contenedorFormulario {
+      grid-area: contenedorFormulario;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%; }
+      #formularioDos .contenedorFormulario .formularioEstilos {
+        background-color: white;
+        border: none;
+        border-radius: 0.5rem;
+        width: 40%;
+        padding: 0.5rem;
+        margin-bottom: 2%; }
+      #formularioDos .contenedorFormulario .formularioConsulta {
+        background-color: white;
+        width: 80%;
+        height: 80%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem; }
+      #formularioDos .contenedorFormulario .botonEnviar {
+        text-decoration: none;
+        background-color: #8048A3;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        margin-right: 1%; }
+        #formularioDos .contenedorFormulario .botonEnviar:hover {
+          text-decoration: none;
+          color: #D2C1E5;
+          transform: scale(1.1, 1.1); }
+      #formularioDos .contenedorFormulario .botonBorrar {
+        text-decoration: none;
+        background-color: #8048A3;
+        opacity: 70%;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%; }
+        #formularioDos .contenedorFormulario .botonBorrar:hover {
+          text-decoration: none;
+          background-color: #8048A3;
+          opacity: 100%;
+          color: #FFE0DE; } }
+
+/* _____________________________________________________________________________________________1440px */
+@media only screen and (max-width: 1440px) {
+  main div .tituloPrincipal {
+    font-size: 4rem;
+    top: 90%; }
+  main div .bajadaPrincipal {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    top: 100%; }
+  main div .tituloPrincipalDos {
+    font-size: 4rem;
+    top: 90%; }
+  #formulario {
+    background-color: #FFE0DE;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tituloFormulario contenedorFormulario"; }
+    #formulario .tituloFormulario {
+      grid-area: tituloFormulario;
+      text-align: right;
+      margin-top: 2%; }
+    #formulario .contenedorFormulario {
+      grid-area: contenedorFormulario;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%; }
+      #formulario .contenedorFormulario .formularioEstilos {
+        background-color: #D2C1E5;
+        border: none;
+        border-radius: 0.5rem;
+        width: 40%;
+        padding: 0.5rem;
+        margin-bottom: 2%; }
+      #formulario .contenedorFormulario .formularioConsulta {
+        background-color: #D2C1E5;
+        width: 80%;
+        height: 80%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem; }
+      #formulario .contenedorFormulario .botonEnviar {
+        text-decoration: none;
+        background-color: #8048A3;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        margin-right: 1%; }
+        #formulario .contenedorFormulario .botonEnviar:hover {
+          text-decoration: none;
+          color: #D2C1E5;
+          transform: scale(1.1, 1.1); }
+      #formulario .contenedorFormulario .botonBorrar {
+        text-decoration: none;
+        background-color: #8048A3;
+        opacity: 70%;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%; }
+        #formulario .contenedorFormulario .botonBorrar:hover {
+          text-decoration: none;
+          background-color: #8048A3;
+          opacity: 100%;
+          color: #FFE0DE; }
+  #formularioDos {
+    background-color: #D2C1E5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tituloFormulario contenedorFormulario"; }
+    #formularioDos .tituloFormulario {
+      grid-area: tituloFormulario;
+      text-align: right;
+      margin-top: 2%; }
+    #formularioDos .contenedorFormulario {
+      grid-area: contenedorFormulario;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%; }
+      #formularioDos .contenedorFormulario .formularioEstilos {
+        background-color: white;
+        border: none;
+        border-radius: 0.5rem;
+        width: 40%;
+        padding: 0.5rem;
+        margin-bottom: 2%; }
+      #formularioDos .contenedorFormulario .formularioConsulta {
+        background-color: white;
+        width: 80%;
+        height: 80%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem; }
+      #formularioDos .contenedorFormulario .botonEnviar {
+        text-decoration: none;
+        background-color: #8048A3;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        margin-right: 1%; }
+        #formularioDos .contenedorFormulario .botonEnviar:hover {
+          text-decoration: none;
+          color: #D2C1E5;
+          transform: scale(1.1, 1.1); }
+      #formularioDos .contenedorFormulario .botonBorrar {
+        text-decoration: none;
+        background-color: #8048A3;
+        opacity: 70%;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%; }
+        #formularioDos .contenedorFormulario .botonBorrar:hover {
+          text-decoration: none;
+          background-color: #8048A3;
+          opacity: 100%;
+          color: #FFE0DE; }
+  /* --------------------------------SECCIÓN VIDEOS */
+  section.videosEstilos .videosDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    section.videosEstilos .videosDos .videos {
+      width: 40rem;
+      height: 30rem;
+      margin-bottom: 5%;
+      margin-left: 0; }
+  section .videosTres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    section .videosTres .videos {
+      width: 40rem;
+      height: 30rem;
+      margin-bottom: 5%;
+      margin-left: 0; }
+  /* --------------------------------SECCIÓN SERVICIOS */
+  section.contenedorDisenos .disenos .disenoUno .titulosDisenos, section.contenedorDisenos .disenos .disenoDos .titulosDisenos, section.contenedorDisenos .disenos .disenoTres .titulosDisenos, section.contenedorDisenos .disenos .disenoCuatro .titulosDisenos, section.contenedorDisenos .disenos .disenoCinco .titulosDisenos, section.contenedorDisenos .disenos .disenoSeis .titulosDisenos {
+    z-index: 2;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #FFD6CF;
+    margin-top: 15%; } }
+
+/* _____________________________________________________________________________________________1336px */
+@media only screen and (max-width: 1336px) {
+  main div .tituloPrincipal {
+    font-size: 4rem;
+    top: 80%; }
+  main div .bajadaPrincipal {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    top: 90%; }
+  main div .tituloPrincipalDos {
+    font-size: 4rem;
+    top: 80%; }
+  #formulario {
+    background-color: #FFE0DE;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tituloFormulario contenedorFormulario"; }
+    #formulario .tituloFormulario {
+      grid-area: tituloFormulario;
+      text-align: right;
+      margin-top: 2%; }
+    #formulario .contenedorFormulario {
+      grid-area: contenedorFormulario;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%; }
+      #formulario .contenedorFormulario .formularioEstilos {
+        background-color: #D2C1E5;
+        border: none;
+        border-radius: 0.5rem;
+        width: 40%;
+        padding: 0.5rem;
+        margin-bottom: 2%; }
+      #formulario .contenedorFormulario .formularioConsulta {
+        background-color: #D2C1E5;
+        width: 80%;
+        height: 80%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem; }
+      #formulario .contenedorFormulario .botonEnviar {
+        text-decoration: none;
+        background-color: #8048A3;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        margin-right: 1%; }
+        #formulario .contenedorFormulario .botonEnviar:hover {
+          text-decoration: none;
+          color: #D2C1E5;
+          transform: scale(1.1, 1.1); }
+      #formulario .contenedorFormulario .botonBorrar {
+        text-decoration: none;
+        background-color: #8048A3;
+        opacity: 70%;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%; }
+        #formulario .contenedorFormulario .botonBorrar:hover {
+          text-decoration: none;
+          background-color: #8048A3;
+          opacity: 100%;
+          color: #FFE0DE; }
+  #formularioDos {
+    background-color: #D2C1E5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tituloFormulario contenedorFormulario"; }
+    #formularioDos .tituloFormulario {
+      grid-area: tituloFormulario;
+      text-align: right;
+      margin-top: 2%; }
+    #formularioDos .contenedorFormulario {
+      grid-area: contenedorFormulario;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%; }
+      #formularioDos .contenedorFormulario .formularioEstilos {
+        background-color: white;
+        border: none;
+        border-radius: 0.5rem;
+        width: 40%;
+        padding: 0.5rem;
+        margin-bottom: 2%; }
+      #formularioDos .contenedorFormulario .formularioConsulta {
+        background-color: white;
+        width: 80%;
+        height: 80%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem; }
+      #formularioDos .contenedorFormulario .botonEnviar {
+        text-decoration: none;
+        background-color: #8048A3;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        margin-right: 1%; }
+        #formularioDos .contenedorFormulario .botonEnviar:hover {
+          text-decoration: none;
+          color: #D2C1E5;
+          transform: scale(1.1, 1.1); }
+      #formularioDos .contenedorFormulario .botonBorrar {
+        text-decoration: none;
+        background-color: #8048A3;
+        opacity: 70%;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%; }
+        #formularioDos .contenedorFormulario .botonBorrar:hover {
+          text-decoration: none;
+          background-color: #8048A3;
+          opacity: 100%;
+          color: #FFE0DE; }
+  /* --------------------------------INDEX*/
+  .carrousel .carrousel__fotos .carrousel__fotos--uno h1 {
+    font-size: 4rem; }
+  .carrousel .carrousel__fotos .carrousel__fotos--uno p.parrafoPrincipal {
+    font-size: 1rem; }
+  section .tablaServicios {
+    width: 70%; }
+    section .tablaServicios .tablaTitulo {
+      font-size: 1.8rem; }
+    section .tablaServicios .tablaTexto {
+      font-size: 1rem; }
+  /* --------------------------------SECCIÓN VIDEOS */
+  section.videosEstilos .videosDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    section.videosEstilos .videosDos .videos {
+      width: 35rem;
+      height: 25rem;
+      margin-bottom: 5%;
+      margin-left: 0; }
+  section .videosTres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    section .videosTres .videos {
+      width: 35rem;
+      height: 25rem;
+      margin-bottom: 5%;
+      margin-left: 0; }
+  /* --------------------------------SECCIÓN SERVICIOS */
+  section.contenedorDisenos .disenos .disenoUno .titulosDisenos, section.contenedorDisenos .disenos .disenoDos .titulosDisenos, section.contenedorDisenos .disenos .disenoTres .titulosDisenos, section.contenedorDisenos .disenos .disenoCuatro .titulosDisenos, section.contenedorDisenos .disenos .disenoCinco .titulosDisenos, section.contenedorDisenos .disenos .disenoSeis .titulosDisenos {
+    z-index: 2;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #FFD6CF;
+    margin-top: 15%; } }
+
+/* _____________________________________________________________________________________________1200px */
+@media only screen and (max-width: 1200px) {
+  main div .tituloPrincipal {
+    font-size: 4rem;
+    top: 70%; }
+  main div .bajadaPrincipal {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    top: 82%; }
+  main div .tituloPrincipalDos {
+    font-size: 4rem;
+    top: 70%; }
+  #formulario {
+    background-color: #FFE0DE;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tituloFormulario contenedorFormulario"; }
+    #formulario .tituloFormulario {
+      grid-area: tituloFormulario;
+      text-align: right;
+      margin-top: 2%; }
+    #formulario .contenedorFormulario {
+      grid-area: contenedorFormulario;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%; }
+      #formulario .contenedorFormulario .formularioEstilos {
+        background-color: #D2C1E5;
+        border: none;
+        border-radius: 0.5rem;
+        width: 40%;
+        padding: 0.5rem;
+        margin-bottom: 2%; }
+      #formulario .contenedorFormulario .formularioConsulta {
+        background-color: #D2C1E5;
+        width: 80%;
+        height: 80%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem; }
+      #formulario .contenedorFormulario .botonEnviar {
+        text-decoration: none;
+        background-color: #8048A3;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        margin-right: 1%; }
+        #formulario .contenedorFormulario .botonEnviar:hover {
+          text-decoration: none;
+          color: #D2C1E5;
+          transform: scale(1.1, 1.1); }
+      #formulario .contenedorFormulario .botonBorrar {
+        text-decoration: none;
+        background-color: #8048A3;
+        opacity: 70%;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%; }
+        #formulario .contenedorFormulario .botonBorrar:hover {
+          text-decoration: none;
+          background-color: #8048A3;
+          opacity: 100%;
+          color: #FFE0DE; }
+  #formularioDos {
+    background-color: #D2C1E5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tituloFormulario contenedorFormulario"; }
+    #formularioDos .tituloFormulario {
+      grid-area: tituloFormulario;
+      text-align: right;
+      margin-top: 2%; }
+    #formularioDos .contenedorFormulario {
+      grid-area: contenedorFormulario;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%; }
+      #formularioDos .contenedorFormulario .formularioEstilos {
+        background-color: white;
+        border: none;
+        border-radius: 0.5rem;
+        width: 40%;
+        padding: 0.5rem;
+        margin-bottom: 2%; }
+      #formularioDos .contenedorFormulario .formularioConsulta {
+        background-color: white;
+        width: 80%;
+        height: 80%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem; }
+      #formularioDos .contenedorFormulario .botonEnviar {
+        text-decoration: none;
+        background-color: #8048A3;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        margin-right: 1%; }
+        #formularioDos .contenedorFormulario .botonEnviar:hover {
+          text-decoration: none;
+          color: #D2C1E5;
+          transform: scale(1.1, 1.1); }
+      #formularioDos .contenedorFormulario .botonBorrar {
+        text-decoration: none;
+        background-color: #8048A3;
+        opacity: 70%;
+        color: #FFE0DE;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        margin-top: 1%; }
+        #formularioDos .contenedorFormulario .botonBorrar:hover {
+          text-decoration: none;
+          background-color: #8048A3;
+          opacity: 100%;
+          color: #FFE0DE; }
+  /* --------------------------------INDEX*/
+  .carrousel .carrousel__fotos .carrousel__fotos--uno h1 {
+    font-size: 4rem; }
+  .carrousel .carrousel__fotos .carrousel__fotos--uno p.parrafoPrincipal {
+    font-size: 1rem; }
+  section .tablaServicios {
+    width: 70%; }
+    section .tablaServicios .tablaTitulo {
+      font-size: 1.8rem; }
+    section .tablaServicios .tablaTexto {
+      font-size: 1rem; }
+  /* --------------------------------SECCIÓN VIDEOS */
+  section.videosEstilos .videosDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    section.videosEstilos .videosDos .videos {
+      width: 30rem;
+      height: 20rem;
+      margin-bottom: 5%;
+      margin-left: 0; }
+  section .videosTres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    section .videosTres .videos {
+      width: 30rem;
+      height: 20rem;
+      margin-bottom: 5%;
+      margin-left: 0; }
+  /* --------------------------------SECCIÓN SERVICIOS */
+  section.contenedorDisenos .disenos .disenoUno .titulosDisenos, section.contenedorDisenos .disenos .disenoDos .titulosDisenos, section.contenedorDisenos .disenos .disenoTres .titulosDisenos, section.contenedorDisenos .disenos .disenoCuatro .titulosDisenos, section.contenedorDisenos .disenos .disenoCinco .titulosDisenos, section.contenedorDisenos .disenos .disenoSeis .titulosDisenos {
+    z-index: 2;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FFD6CF;
+    margin-top: 15%; } }
+
+/* _____________________________________________________________________________________________1024px */
 @media only screen and (max-width: 1024px) {
   h2 {
     font-size: 3rem; }
@@ -808,11 +1500,11 @@ section.contenedorDisenos {
           color: #FFE0DE; }
   main div .tituloPrincipal {
     font-size: 4rem;
-    top: 75%; }
+    top: 60%; }
   main div .bajadaPrincipal {
     font-size: 1rem;
     line-height: 1.3rem;
-    top: 90%; }
+    top: 70%; }
   main div ol {
     font-size: 1.1rem; }
   /* --------------------------------INDEX*/
@@ -856,7 +1548,7 @@ section.contenedorDisenos {
   /* --------------------------------SECCIÓN ¿QUIÉNES SOMOS? */
   main div .tituloPrincipalDos {
     font-size: 4rem;
-    top: 75%; }
+    top: 60%; }
   section.quienSoy {
     display: grid;
     grid-template-columns: 3fr 4fr;
@@ -875,6 +1567,7 @@ section.contenedorDisenos {
     margin-left: 17%;
     font-size: 1.2rem; } }
 
+/* _____________________________________________________________________________________________768px */
 @media only screen and (max-width: 768px) {
   /* --------------------------------TODAS LAS SECCIONES */
   h2 {
@@ -1025,11 +1718,11 @@ section.contenedorDisenos {
           color: #FFE0DE; }
   main div .tituloPrincipal {
     font-size: 3rem;
-    top: 60%; }
+    top: 45%; }
   main div .bajadaPrincipal {
     font-size: 0.9rem;
     line-height: 1rem;
-    top: 70%; }
+    top: 53%; }
   main div ol {
     font-size: 1rem; }
   /* --------------------------------INDEX*/
@@ -1073,7 +1766,7 @@ section.contenedorDisenos {
   /* --------------------------------SECCIÓN ¿QUIÉNES SOMOS? */
   main div .tituloPrincipalDos {
     font-size: 3rem;
-    top: 60%; }
+    top: 45%; }
   section.quienSoy {
     display: grid;
     grid-template-columns: 3fr 4fr;
@@ -1098,15 +1791,16 @@ section.contenedorDisenos {
     width: 40rem;
     height: 20rem; } }
 
-@media only screen and (max-width: 320px) {
+/* _____________________________________________________________________________________________425px */
+@media only screen and (max-width: 425px) {
   /* --------------------------------TODAS LAS SECCIONES */
   p {
     font-size: 0.8rem; }
   h2 {
     font-size: 2rem;
-    padding: 2%; }
+    padding: 4%; }
   h3 {
-    font-size: 1.2rem; }
+    font-size: 1.4rem; }
   header div div .navegador .logo {
     width: 3.8rem; }
   header div div .navegador .menuUno li:hover {
@@ -1264,19 +1958,19 @@ section.contenedorDisenos {
     flex-direction: column;
     justify-content: space-around; }
     section.videosEstilos .videosDos .videos {
-      width: 17rem;
-      height: 10rem;
+      width: 20rem;
+      height: 12rem;
       margin-bottom: 5%;
-      margin-left: 1%; }
+      margin-left: 10%; }
   section .videosTres {
     display: flex;
     flex-direction: column;
     justify-content: space-around; }
     section .videosTres .videos {
-      width: 17rem;
-      height: 10rem;
+      width: 20rem;
+      height: 12rem;
       margin-bottom: 5%;
-      margin-left: 1%; }
+      margin-left: 10%; }
   /* --------------------------------SECCIÓN SERVICIOS */
   .desplegableCuadro .desplegable {
     font-size: 1rem; }
@@ -1331,13 +2025,14 @@ section.contenedorDisenos {
       section.quienSoy .textoQuienSoy .textoNegrita {
         font-weight: 800; }
   section.misHabilidades .iconosQuienesSomos {
-    margin-left: 12%;
+    margin-left: 15%;
     width: 50px;
     height: 50px; }
   section.misHabilidades .habilidadesTexto {
-    margin-left: 8%;
+    margin-left: 12%;
     font-size: 0.8rem; } }
 
+/* _____________________________________________________________________________________________375px */
 @media only screen and (max-width: 375px) {
   /* --------------------------------TODAS LAS SECCIONES */
   p {
@@ -1571,22 +2266,23 @@ section.contenedorDisenos {
       section.quienSoy .textoQuienSoy .textoNegrita {
         font-weight: 800; }
   section.misHabilidades .iconosQuienesSomos {
-    margin-left: 12%;
+    margin-left: 15%;
     width: 50px;
     height: 50px; }
   section.misHabilidades .habilidadesTexto {
-    margin-left: 8%;
+    margin-left: 11%;
     font-size: 0.8rem; } }
 
-@media only screen and (max-width: 414px) {
+/* _____________________________________________________________________________________________320px */
+@media only screen and (max-width: 320px) {
   /* --------------------------------TODAS LAS SECCIONES */
   p {
     font-size: 0.8rem; }
   h2 {
-    font-size: 2rem;
-    padding: 4%; }
+    font-size: 1.8rem;
+    padding: 2%; }
   h3 {
-    font-size: 1.4rem; }
+    font-size: 1.2rem; }
   header div div .navegador .logo {
     width: 3.8rem; }
   header div div .navegador .menuUno li:hover {
@@ -1744,7 +2440,7 @@ section.contenedorDisenos {
     flex-direction: column;
     justify-content: space-around; }
     section.videosEstilos .videosDos .videos {
-      width: 20rem;
+      width: 17rem;
       height: 10rem;
       margin-bottom: 5%;
       margin-left: 1%; }
@@ -1753,7 +2449,7 @@ section.contenedorDisenos {
     flex-direction: column;
     justify-content: space-around; }
     section .videosTres .videos {
-      width: 20rem;
+      width: 17rem;
       height: 10rem;
       margin-bottom: 5%;
       margin-left: 1%; }
