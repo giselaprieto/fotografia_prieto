@@ -1,40 +1,6 @@
 @import "mixins";
 @import "servicios";
 
-/* _____________________________________________________________________________________________1920px */
-@media only screen and (max-width: 1920px) {
-    main {
-        div {
-            .tituloPrincipal {
-                font-size: 4rem;
-                top: 119%;
-            }
-            .bajadaPrincipal {
-                font-size: 1.2rem;
-                line-height: 1.3rem;
-                top: 130%;
-            }
-        }
-    }
-
-    main {
-        div {
-            .tituloPrincipalDos {
-                font-size: 4rem;
-                top: 90%;
-            }
-        }
-    }
-
-    #formulario {
-        @include formulario ($colornaranjaclaro, 1rem, 2fr, 3fr, "tituloFormulario contenedorFormulario", right, $colorvioletamedio, 40%, $colorvioletamedio, 80%);
-    }
-    
-    #formularioDos {
-        @include formulario ($colorvioletamedio, 1rem, 2fr, 3fr, "tituloFormulario contenedorFormulario", right, $colorblanco, 40%, $colorblanco, 80%);
-    }
-}
-
 /* _____________________________________________________________________________________________1440px */
 @media only screen and (max-width: 1440px) {
     main {
